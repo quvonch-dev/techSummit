@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechSummit 2032 — Eventor Style Conference</title>
+  <meta name="description" content="Responsive technology conference landing page inspired by modern event templates." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrapper">
+      <a href="#top" class="logo" aria-label="TechSummit home">
+        <span class="logo-icon"><i class="ri-shopping-bag-3-line"></i></span>
+        <span>TechSummit 2032</span>
+        <small>March 15-17, 2032</small>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#speakers">Speakers</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#tickets">Tickets</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#venue">Venue</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="ri-moon-line"></i>
+        </button>
+        <a href="#tickets" class="btn btn-primary nav-ticket">Get Tickets</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+          <i class="ri-menu-3-line"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-padding">
+      <div class="bg-grid"></div>
+      <div class="glow glow-purple"></div>
+      <div class="glow glow-pink"></div>
+
+      <div class="container hero-content">
+        <span class="event-pill"><i class="ri-map-pin-2-fill"></i> March 15-17, 2032 • San Francisco, CA</span>
+        <h1>The Premier <span>Technology</span> Conference</h1>
+        <p class="hero-text">
+          Join 3,000+ tech leaders, innovators, and developers for three days of inspiring talks,
+          hands-on workshops, and networking at the premier technology conference.
+        </p>
+
+        <div class="countdown" aria-label="Countdown timer">
+          <div class="time-card"><strong id="days">45</strong><small>Days</small></div>
+          <div class="time-card"><strong id="hours">12</strong><small>Hours</small></div>
+          <div class="time-card"><strong id="minutes">30</strong><small>Minutes</small></div>
+          <div class="time-card"><strong id="seconds">42</strong><small>Seconds</small></div>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#tickets" class="btn btn-primary">Get Your Tickets <i class="ri-arrow-right-line"></i></a>
+          <a href="#speakers" class="btn btn-outline">View Speakers</a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>3,000+</strong><span>Attendees</span></div>
+          <div><strong>50+</strong><span>Speakers</span></div>
+          <div><strong>3</strong><span>Days</span></div>
+          <div><strong>20+</strong><span>Workshops</span></div>
+        </div>
+
+        <a class="scroll-down" href="#speakers">SCROLL <i class="ri-arrow-down-line"></i></a>
+      </div>
+    </section>
+
+    <section class="speakers section-padding" id="speakers">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Featured Speakers</span>
+          <h2>Meet the minds shaping tomorrow</h2>
+          <p>Industry experts, founders, engineers, and creators share practical ideas for the next generation of technology.</p>
+        </div>
+
+        <div class="speaker-grid">
+          <article class="speaker-card">
+            <div class="speaker-photo photo-one"></div>
+            <div class="speaker-info">
+              <span>AI Strategy</span>
+              <h3>Sarah Chen</h3>
+              <p>Chief AI Officer at NeuralLabs</p>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <div class="speaker-photo photo-two"></div>
+            <div class="speaker-info">
+              <span>Cloud Engineering</span>
+              <h3>Marcus Rivera</h3>
+              <p>VP Engineering at CloudPeak</p>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <div class="speaker-photo photo-three"></div>
+            <div class="speaker-info">
+              <span>Design Systems</span>
+              <h3>Amina Patel</h3>
+              <p>Product Design Lead at PixelFlow</p>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <div class="speaker-photo photo-four"></div>
+            <div class="speaker-info">
+              <span>Cybersecurity</span>
+              <h3>Daniel Brooks</h3>
+              <p>Security Architect at ShieldNet</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-padding">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <span class="eyebrow">Why attend</span>
+          <h2>Three days of talks, workshops, and real networking</h2>
+          <p>
+            Build your roadmap for AI, cloud, product design, security, and startup growth. Every session is built for practical learning, not boring theory.
+          </p>
+          <div class="feature-list">
+            <div><i class="ri-mic-line"></i><span>Keynote sessions with global founders</span></div>
+            <div><i class="ri-code-box-line"></i><span>Hands-on workshops for developers</span></div>
+            <div><i class="ri-team-line"></i><span>Private networking rooms and meetups</span></div>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="mini-card card-top">
+            <span><i class="ri-live-line"></i></span>
+            <div><strong>Live stages</strong><small>3 parallel tracks</small></div>
+          </div>
+          <div class="orbit"></div>
+          <div class="mini-card card-bottom">
+            <span><i class="ri-award-line"></i></span>
+            <div><strong>Certificate</strong><small>For all workshop attendees</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="schedule section-padding" id="schedule">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Event Schedule</span>
+          <h2>Multi-track conference agenda</h2>
+          <p>Filter by day and plan your own conference journey.</p>
+        </div>
+
+        <div class="schedule-tabs" role="tablist">
+          <button class="tab-btn active" data-day="all">All Days</button>
+          <button class="tab-btn" data-day="day1">Day 1</button>
+          <button class="tab-btn" data-day="day2">Day 2</button>
+          <button class="tab-btn" data-day="day3">Day 3</button>
+        </div>
+
+        <div class="schedule-list">
+          <article class="schedule-item" data-day="day1">
+            <time>09:00 AM</time>
+            <div>
+              <span class="track">Main Stage</span>
+              <h3>Opening Keynote: The Future of Human + AI Work</h3>
+              <p>Sarah Chen • AI Strategy</p>
+            </div>
+          </article>
+          <article class="schedule-item" data-day="day1">
+            <time>01:30 PM</time>
+            <div>
+              <span class="track">Workshop</span>
+              <h3>Building high-performance front-end systems</h3>
+              <p>Marcus Rivera • Engineering</p>
+            </div>
+          </article>
+          <article class="schedule-item" data-day="day2">
+            <time>10:00 AM</time>
+            <div>
+              <span class="track">Product Track</span>
+              <h3>Design systems that scale across teams</h3>
+              <p>Amina Patel • Product Design</p>
+            </div>
+          </article>
+          <article class="schedule-item" data-day="day2">
+            <time>03:00 PM</time>
+            <div>
+              <span class="track">Security Lab</span>
+              <h3>Modern security for cloud products</h3>
+              <p>Daniel Brooks • Cybersecurity</p>
+            </div>
+          </article>
+          <article class="schedule-item" data-day="day3">
+            <time>11:00 AM</time>
+            <div>
+              <span class="track">Startup Stage</span>
+              <h3>From prototype to paid product</h3>
+              <p>Founder panel • Growth and funding</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="tickets section-padding" id="tickets">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Tickets</span>
+          <h2>Choose your pass</h2>
+          <p>Simple pricing for individuals, teams, and VIP guests.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <span class="price-label">Early Bird</span>
+            <h3>$99</h3>
+            <p>Perfect for students and solo developers.</p>
+            <ul>
+              <li><i class="ri-check-line"></i> 3-day conference access</li>
+              <li><i class="ri-check-line"></i> Speaker sessions</li>
+              <li><i class="ri-check-line"></i> Community networking</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline full">Buy Ticket</a>
+          </article>
+
+          <article class="price-card featured">
+            <span class="popular">Most popular</span>
+            <span class="price-label">Professional</span>
+            <h3>$199</h3>
+            <p>Best value for professionals and freelancers.</p>
+            <ul>
+              <li><i class="ri-check-line"></i> Everything in Early Bird</li>
+              <li><i class="ri-check-line"></i> Workshop access</li>
+              <li><i class="ri-check-line"></i> Lunch and coffee included</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary full">Buy Ticket</a>
+          </article>
+
+          <article class="price-card">
+            <span class="price-label">VIP Pass</span>
+            <h3>$399</h3>
+            <p>Premium experience with speaker lounge access.</p>
+            <ul>
+              <li><i class="ri-check-line"></i> Everything in Professional</li>
+              <li><i class="ri-check-line"></i> VIP dinner invitation</li>
+              <li><i class="ri-check-line"></i> Front-row seating</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline full">Buy Ticket</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sponsors section-padding" id="sponsors">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Sponsors</span>
+          <h2>Trusted by leading technology brands</h2>
+          <p>Partner logos are simple text blocks so you can replace them with real client logos later.</p>
+        </div>
+
+        <div class="sponsor-grid">
+          <span>CloudPeak</span>
+          <span>NeuralLabs</span>
+          <span>PixelFlow</span>
+          <span>ShieldNet</span>
+          <span>DevOrbit</span>
+          <span>DataForge</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="venue section-padding" id="venue">
+      <div class="container venue-grid">
+        <div>
+          <span class="eyebrow">Venue</span>
+          <h2>San Francisco Innovation Center</h2>
+          <p>
+            500 Howard Street, San Francisco, CA. Easy transport, nearby hotels, and an event hall built for large technology gatherings.
+          </p>
+          <div class="venue-info">
+            <div><i class="ri-map-pin-line"></i><span>Downtown San Francisco</span></div>
+            <div><i class="ri-parking-box-line"></i><span>Parking available</span></div>
+            <div><i class="ri-wifi-line"></i><span>High-speed conference Wi‑Fi</span></div>
+          </div>
+        </div>
+        <div class="map-card">
+          <div class="map-pin"><i class="ri-map-pin-fill"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="container cta-card">
+        <span class="eyebrow">Ready to join?</span>
+        <h2>Reserve your seat before tickets sell out</h2>
+        <p>Use this section for your registration form, WhatsApp link, or payment page.</p>
+        <a href="mailto:hello@example.com" class="btn btn-primary">Contact Organizer</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#top" class="logo footer-logo">
+          <span class="logo-icon"><i class="ri-shopping-bag-3-line"></i></span>
+          <span>TechSummit 2032</span>
+        </a>
+        <p>A modern responsive event landing page built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <a href="#speakers">Speakers</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#tickets">Tickets</a>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+    <p class="copyright">© 2032 TechSummit. Practice project.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
